@@ -1,38 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
 
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Nanum Gothic", sans-serif;
 }
 
 header {
-  position: relative;
-  top: 134px;
-  font-size: 50px;
+  height: 75px;
+  background-color: #7c9473;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0px;
+}
+h1 {
+  float: left;
+  padding-left: 30px;
+}
+.menu {
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+  padding-right: 30px;
+}
+.menu li {
+  float: left;
+}
+.menu a {
+  color: white;
+  color: black;
+  padding: 0 15px;
+  display: block;
+  text-align: center;
+}
+
+section {
+  height: 600px;
+  width: auto;
+}
+
+.section_01 {
+  background-color: #7c9473;
+}
+.picture {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introduce {
   display: flex;
   justify-content: center;
+  list-style-type: none;
+  padding-top: 30px;
 }
-.container {
-  height: 100vh;
+
+.intro {
+  padding-right: 50px;
+}
+
+.section_02 {
+  background-color: #cfdac8;
+}
+
+.title {
+  font-size: 80px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* border: 3px solid black; */
-}
-.item {
-  flex-grow: 1;
+  justify-content: center;
+  padding-top: 150px;
 }
 
-.picture {
-  width: 400px;
+.content {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
 }
 
-.introduce_01 {
-  border: 3px solid black;
+.contact_list {
+  position: relative;
+  margin-left: 49%;
+  padding-top: 40px;
 }
 
-.introduce_02 {
-  border: 3px solid black;
-}
-
-footer {
+.link {
+  padding-bottom: 20px;
 }
